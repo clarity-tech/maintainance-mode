@@ -6,33 +6,17 @@ const generatedAt = useState(() => new Date().toISOString())
 <template>
   <div id="container">
     <Head>
-      <Title>Nuxt on the edge</Title>
+      <Title>Buckle Up! We're Enhancing Your Experience - Back in 180 Minutes!</Title>
       <Meta
         name="description"
-        content="HTML, dynamically rendered in a city near you"
-      />
-      <Meta name="twitter:card" content="summary_large_image" />
-      <Meta name="twitter:site" content="@nuxt_js" />
-      <Meta name="twitter:creator" content="@nuxt_js" />
-      <Meta name="twitter:title" content="Nuxt on the edge" />
-      <Meta
-        name="twitter:description"
-        content="HTML, dynamically rendered in a city near you"
-      />
-      <Meta
-        name="twitter:image"
-        content="https://nuxt-on-the-edge.vercel.app/og-card.png"
-      />
-      <Meta name="twitter:image:alt" content="The Vercel and Nuxt logos" />
-      <Meta
-        name="og:image"
-        content="https://nuxt-on-the-edge.vercel.app/og-card.png"
+        content="Claritytech.io and great minds"
       />
     </Head>
     <div style="height: 100%">
       <AppBackground />
       <main>
-        <h1>Hello from the edge!</h1>
+        <h1>Buckle Up! <br>
+          We're Enhancing Your Experience <br>- Back in 180 Minutes!</h1>
         <div class="info">
           <div class="block">
             <div class="contents">
@@ -60,24 +44,18 @@ const generatedAt = useState(() => new Date().toISOString())
       <div class="debug">Generated at {{ generatedAt }}</div>
     </div>
     <footer>
-      <p class="company">
-        <a target="_blank" href="https://vercel.com" aria-label="Vercel">
-          <LogoVercel />
-        </a>
-      </p>
+
       <p class="details">
-        Built with
-        <NuxtLink to="https://v3.nuxtjs.org" target="_blank">Nuxt</NuxtLink>
-        on
-        <NuxtLink to="https://vercel.com" target="_blank">Vercel</NuxtLink>
+        Built by
+        <NuxtLink to="https://www.claritytech.io" target="_blank">ClarityTech</NuxtLink>
+        <LogoClarity />
       </p>
       <NuxtLink
         target="_blank"
-        href="https://github.com/pi0/nuxt-on-the-edge"
+        href="https://github.com/clarity-tech/"
         class="source"
       >
         <LogoGithub />
-        Source
       </NuxtLink>
     </footer>
   </div>
@@ -92,7 +70,7 @@ body {
 body {
   --fg: black;
   --bg: white;
-  --primary: #00dc82;
+  --primary: #9a00dc;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;

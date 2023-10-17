@@ -63,7 +63,7 @@
         <stop offset="0.464" style="stop-opacity: 0.21"></stop>
         <stop offset="0.771" style="stop-opacity: 0"></stop>
       </linearGradient>
-      <linearGradient
+      <!-- <linearGradient
         id="gradient-vercel"
         gradientUnits="objectBoundingBox"
         x1="0"
@@ -74,7 +74,7 @@
         <stop offset="0.3" style="stop-color: var(--g1)"></stop>
         <stop offset="0.5" style="stop-color: var(--g2)"></stop>
         <stop offset="0.8" style="stop-color: var(--g1)"></stop>
-      </linearGradient>
+      </linearGradient> -->
       <linearGradient
         id="gradient-react"
         gradientUnits="objectBoundingBox"
@@ -87,7 +87,7 @@
         <stop offset="0.5" style="stop-color: #bbf0ff"></stop>
         <stop offset="0.8" style="stop-color: var(--primary)"></stop>
       </linearGradient>
-      <symbol id="logo" viewBox="0 0 124 124" fill="none">
+      <!-- <symbol id="logo" viewBox="0 0 124 124" fill="none">
         <path
           fill-rule="evenodd"
           clip-rule="evenodd"
@@ -98,7 +98,7 @@
           d="M78.0002 40.3997C80.6668 35.8668 87.3332 35.8668 89.9998 40.3997L119.061 89.801C121.728 94.3339 118.395 100 113.062 100H54.9383C49.6052 100 46.2719 94.3339 48.9385 89.801L78.0002 40.3997Z"
           fill="#00DC82"
         />
-      </symbol>
+      </symbol> -->
       <linearGradient id="#mask-gradient">
         <stop offset="0" stop-color="black"></stop>
         <stop offset="1" stop-color="white"></stop>
@@ -185,12 +185,12 @@
         ></circle>
       </g>
     </g>
-    <path
+    <!-- <path
       id="vercel-logo"
       d="m336.4 261-46.2-80-46.2 80h92.4z"
       style="fill: url(#gradient-vercel)"
-    ></path>
-    <g id="center">
+    ></path> -->
+    <!-- <g id="center">
       <path
         d="M420 202 v36 M 402 220h36"
         style="
@@ -201,7 +201,7 @@
           fill: none;
         "
       ></path>
-    </g>
+    </g> -->
     <use href="#logo" width="98" x="500"></use>
     <use href="#logo" width="98" x="500" mask="url(#mask)"></use>
   </svg>
