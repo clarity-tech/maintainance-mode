@@ -17,7 +17,7 @@ const generatedAt = useState(() => new Date().toISOString())
       <main>
         <h1>Buckle Up! <br>
           We're Enhancing Your Experience <br>- Back in 180 Minutes!</h1>
-        <div class="info">
+        <!-- <div class="info">
           <div class="block">
             <div class="contents">
               <span>Your city</span>
@@ -39,7 +39,7 @@ const generatedAt = useState(() => new Date().toISOString())
               <strong>{{ info.ip }}</strong>
             </div>
           </div>
-        </div>
+        </div> -->
       </main>
       <div class="debug">Generated at {{ generatedAt }}</div>
     </div>
