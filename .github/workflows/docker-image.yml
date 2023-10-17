@@ -43,7 +43,6 @@ jobs:
         with:
           # list of Docker images to use as base name for tags
           images: |
-            msonowal/docker-php-node
             ghcr.io/${{ env.IMAGE_NAME }}
           # generate Docker tags based on the following events/attributes
           tags: |
